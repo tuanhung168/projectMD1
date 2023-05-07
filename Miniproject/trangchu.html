@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="trangchu.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" />
+</head>
+
+<body>
+    <header>
+        <nav style="padding-top: 15px;">
+            <ul>
+                <li>
+                    <h3><a style="color: #4255ff;font-weight: bold;" href="trangchu.html">Quizlet</a></h3>
+                </li>
+                <li><a href="./trangchu.html">Trang chủ</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Chủ đề
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./ngonngu.html"><ion-icon name="language-outline"></ion-icon> Ngôn ngữ</a></li>
+                            <li><a class="dropdown-item" href="./toanhoc.html"><ion-icon name="calculator-outline"></ion-icon> Toán học</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Lời giải chuyên gia</a></li>
+            </ul>
+        </nav>
+
+        <div class="search">
+            <input type="text" placeholder="   Học phần, sách giáo khoa, câu hỏi" />
+           <a href="./taoquiz.html" style="color:white; text-decoration: none;"> <button>+</button></a>
+        </div>
+
+        <div class="btn" >
+            <button type="button" class="btn btn-light" ><a id="dangnhap" href="./dangnhap.html" style="text-decoration: none;color: #586380;font-weight: bold;">Đăng nhập</a></button>
+            <button id="dangky" type="button" class="btn btn-warning"><a  href="./dangky.html" style="text-decoration: none;color: black;font-weight: bold;">Đăng ký</a></button>
+        </div>
+    </header>
+    <div style="background-color: #edeff5;height:1px ;width: 100%;"></div>
+    <div class="image-1">
+        <img src="https://images.prismic.io/quizlet-prod/6aa15201-1bbd-4bab-803d-93e7d2d4110e_Alt+Image+1+%281%29.png?auto=compress,format&rect=0,0,2880,1317&w=2880&h=1317"
+            alt="Mô tả ảnh">
+        <div class="image-1-1">
+            <h1>Thẻ ghi nhớ kỹ thuật số và các công cụ học tốt nhất</h1>
+            <p>Tham gia cùng hơn 60 triệu học sinh đang sử dụng các thẻ ghi nhớ dựa trên nền tảng khoa học, các bài kiểm
+                tra thử và lời giải chuyên gia của Quizlet để cải thiện điểm số và đạt được mục tiêu.</p>
+                <a href="./dangky.html" style="color: white;text-decoration: none;"><button type="button" class="btn btn-primary">Đăng ký miễn phí</button></a>
+        </div>
+    </div>
+    <main>
+        <section id="hero">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2>90% học sinh sử dụng Quizlet cho biết họ đã cải thiện được điểm số.</h2>
+            <br>
+            <br>
+            <br>
+            <br>
+        </section>
+
+        <section id="features">
+            <div class="text-1">
+                <h2>Ghi nhớ nhanh hơn, miễn phí</h2>
+                <p style="padding-top: 40px;">Nghiên cứu cho thấy việc tự kiểm tra bằng thẻ ghi nhớ sẽ hiệu quả hơn việc
+                    đọc lại ghi chú của bạn.
+                    Từ toán học, y học đến ngôn ngữ hiện đại, Quizlet được học sinh sử dụng trong hơn 100 chủ đề khác
+                    nhau.</p>
+                <button type="button" class="btn btn-primary btn-lg">Bắt đầu</button>
+            </div>
+            <div class="img-1">
+                <img
+                    src="https://images.prismic.io/quizlet-prod/130dc509-6919-47bc-b27d-17f600a41b0c_IntlFirstSlice.png?auto=compress,format">
+            </div>
+        </section>
+
+        <section id="superman">
+            <div class="img-2">
+                <img
+                    src="https://images.prismic.io/quizlet-prod/1d359d1f-be06-481d-af18-30a4d93b3b0f_commute-image.png?auto=compress,format&rect=0,0,1001,1000&w=1001&h=1000">
+            </div>
+            <div class="text-2">
+                <h2>Thời gian đi lại hôm qua,hôm nay lại là buổi học</h2>
+                <p style="padding-top: 40px;">Học ở mọi nơi – ngay cả khi ngoại tuyến – với ứng dụng iOS và Android của
+                    chúng tôi. Tiến trình của
+                    bạn được đồng bộ hóa giữa điện thoại và máy tính.</p>
+            </div>
+        </section>
+
+        <section id="batman">
+            <div class="text-3">
+                <p style="background-color: #ffcd20; font-size: small; width: 100px;height: 20px;border-radius: 5px;">
+                    QUIZLET PLUS</p>
+                <h2>Sẵn sàng cho ngày thi với Học và Kiểm tra</h2>
+                <p style="padding-top: 25px;">Biến thẻ ghi nhớ của bạn thành các bài kiểm tra thử có thể tùy chỉnh. Vượt
+                    qua sự ghi nhớ thông
+                    thường với các loại câu hỏi thách thức khả năng của bạn.</p>
+                <h4 style="padding-top: 25px;">Ôn luyện bằng chế độ Học</h4>
+                <p>Nhận phản hồi tức thì trong khi thực hành với các câu hỏi trắc nghiệm, đúng hoặc sai, tự luận và hơn
+                    thế nữa.</p>
+                <h4 style="padding-top: 25px;">Làm bài kiểm tra</h4>
+                <p>Học tập hiệu quả với các bài kiểm tra thử để bạn sẵn sàng cho kỳ thi.</p>
+                <h4 style="padding-top: 25px;">Truy cập chấm điểm thông minh</h4>
+                <p>Tính năng chấm điểm thông minh của Quizlet đảm bảo bạn không bị chấm sai vì những lỗi nhỏ.</p>
+                <button type="button" class="btn btn-primary btn-lg">Thử miễn phí Học và Kiểm tra</button>
+            </div>
+            <div class="img-3">
+                <img src="./body1.png">
+            </div>
+        </section>
+
+        <section id="aquaman">
+            <div class="img-4">
+                <img src="./body2.png">
+            </div>
+            <div class="text-4">
+                <p style="background-color: #ffcd20; font-size: small; width: 100px;height: 20px;border-radius: 5px;">
+                    QUIZLET PLUS</p>
+                <h2>Nhận trợ giúp cho bài tập về nhà với lời giải chuyên gia</h2>
+                <p style="padding-top: 25px;">Các lời giải chuyên gia Quizlet hướng dẫn cho bạn cách tiếp cận từng bước
+                    để giải quyết các câu hỏi khó. Tìm hàng triệu lời giải trong 64 chủ đề.</p>
+                <h4 style="padding-top: 25px;">
+                    Hàng nghìn cuốn sách giáo khoa</h4>
+                <p>Tìm lời giải cho các câu hỏi trong sách giáo khoa về toán, khoa học, kinh doanh và hơn thế nữa.</p>
+                <h4 style="padding-top: 25px;">Chuyên gia biên soạn</h4>
+                <p>Mỗi lời giải sách giáo khoa đều được biên soạn cẩn thận và kiểm tra kỹ lưỡng bởi đội ngũ chuyên gia
+                    của chúng tôi.</p>
+                <h4 style="padding-top: 25px;">Học từng bước</h4>
+                <p>Đừng chỉ ghi nhớ, hãy hiểu rõ! Tiết lộ từng bước một để nắm đảm bảo nắm rõ, và xem thử lời giải miễn
+                    phí từ mọi đầu sách giáo khoa.</p>
+                <button type="button" class="btn btn-primary btn-lg">Khám phá lời giải miễn phí</button>
+            </div>
+        </section>
+
+        <section id="Theflash">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2>Các học sinh nói gì về Quizlet</h2>
+            <br>
+            <br>
+            <br>
+            <br>
+        </section>
+
+        <section id="wonderwoman">
+            <div class="img-text1 shadow p-3 mb-5 bg-body-tertiary rounded">
+                <img src="./body3.png ">
+                <b>“Quizlet đã tiếp sức cho thành công của tôi từ khi còn học trung học. Những tấm thẻ ghi nhớ có thể
+                    dùng ngay khi đang di chuyển đang hỗ trợ đắc lực cho tôi ở đại học”.
+                </b>
+                <p style="padding-top: 20px;">Hamza, năm cuối, Y học</p>
+            </div>
+            <div class="img-text1 shadow p-3 mb-5 bg-body-tertiary rounded" >
+                <img src="./body4.png">
+                <b>“Chế độ Học là điều tuyệt vời nhất từng có từ Quizlet. Nó hiển thị cho bạn các thuật ngữ theo cách dễ
+                    ghi nhớ nhất."
+                </b>
+                <p style="padding-top: 20px;">Sydney, năm hai, Sinh học</p>
+            </div>
+            <div class="img-text1 shadow p-3 mb-5 bg-body-tertiary rounded">
+                <img src="./body5.png">
+                <b>“Tất cả bạn bè của chúng tôi đều sử dụng Quizlet. Đây là một cách học thú vị và chúng tôi thấy tự tin
+                    hơn khi chuẩn bị cho kỳ thi giữa kỳ và cuối kỳ."
+                </b>
+                <p style="padding-top: 20px;">Owen & Oscar, học sinh năm hai phổ thông</p>
+            </div>
+        </section>
+    </main>
+
+    <nav>
+        <section id="blackadam">
+            <div class="text-5">
+                <h5>GIÁO VIÊN</h5>
+                <h2>Truyền năng lượng cho học sinh của bạn</h2>
+                <p style="padding-top: 40px;">
+                    Giúp các em tự tin học bất cứ nội dung nào, dù cho mục tiêu phấn đấu có là gì đi nữa. Sử dụng các
+                    học phần miễn phí, chế độ học và trò chơi Cột mốc trong lớp của Quizlet, bạn có thể ngay lập tức tạo
+                    ra một lớp học tương tác cao hơn. Học sinh và giáo viên có thể đăng ký và học miễn phí.</p>
+                <button type="button" class="btn btn-primary btn-lg">Lập tài khoản miễn phí</button>
+            </div>
+            <div class="img-5">
+                <img
+                    src="https://images.prismic.io/quizlet-prod/d5b00568-a324-488f-b16b-44480144cb81_Image+for+Text+Callout+%283%29.png?auto=compress,format&rect=0,0,501,500&w=501&h=500">
+        </section>
+    </nav>
+
+    <footer>
+        <section id="cyborg">
+            <div class="text-6">
+                <p><b>Giới thiệu</b></p>
+                <p>Giới thiệu về Quizlet</p>
+                <p>Tuyển dụng</p>
+                <p>Quảng cáo trên Quizlet</p>
+                <p>Tin tức</p>
+                <p>Tải ứng dụng</p>
+            </div>
+            <div class="text-7">
+                <p><b>Dành cho học sinh</b></p>
+                <p>Thẻ ghi nhớ</p>
+                <p>Học</p>
+                <p>Lời giải</p>
+                <p>Quizlet Plus</p>
+            </div>
+            <div class="text-8">
+                <p><b>Dành cho giáo viên</b></p>
+                <p>Live</p>
+                <p>Cột mốc</p>
+                <p>Blog</p>
+                <p>Quizlet Plus cho giáo viên</p>
+            </div>
+            <div class="text-9">
+                <p><b>Tài nguyên</b></p>
+                <p>Trung tâm hỗ trợ</p>
+                <p>Đăng ký</p>
+                <p>Quy tắc danh dự</p>
+                <p>Nguyên tắc cộng đồng</p>
+                <p>Quyền riêng tư <ion-icon name="shield-half-outline"></ion-icon></p>
+                <p>Điều khoản</p>
+                <p>Chính sách quảng cáo và cookie</p>
+            </div>
+            <div class="text-10">
+                <p><b>Ngôn ngữ</b></p>
+                <p>Tiếng Việt</p>
+            </div>
+        </section>
+
+        <section id="phoenix">
+            <div class="text-11">
+                <div class="icon">
+                    <ion-icon name="logo-tiktok"></ion-icon>
+                    <ion-icon name="logo-twitter" style="margin-left: 10px;"></ion-icon>
+                    <ion-icon name="logo-facebook" style="margin-left: 10px;"></ion-icon>
+                    <ion-icon name="logo-instagram" style="margin-left: 10px;"></ion-icon>
+                    <ion-icon name="logo-youtube" style="margin-left: 10px;"></ion-icon>
+                </div>
+                <p>© 2023 Quizlet, Inc.</p>
+            </div>
+            <div class="img-6">
+                <img src="https://assets.quizlet.com/a/j/dist/app/i/global/footer/coppa-seal.cdf1828279fe2a1.png">
+            </div>
+        </section>
+    </footer>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./trangchu.js"></script>
+</body>
+
+</html>

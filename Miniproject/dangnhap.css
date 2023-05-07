@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#thor {
+  display: flex;
+  justify-content: center;
+}
+
+#ironman {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: rgb(231, 231, 231) !important;
+}
+
+#hulk {
+    margin-top: 50px;
+}
+
+
+.form {
+    width:500px; 
+    height: 70px;
+    border: none;
+    border-bottom: 2px solid #2e3856;
+    padding-left: 10px;
+    outline-style: none;
+}
+
+.important {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.text-left {
+   display: flex;
+}
+
+nav {
+    max-width: 540px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.CTM {
+    display: flex;
+    justify-content: center;
+    border: 2px solid #d9dde8;
+    margin-top: 5px;
+}
+
+body {
+    background-image: url(login.png);
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+    background-color: rgba(248, 248, 248, 0.5);
+}
+
+h2:hover {
+    border-bottom: 2px solid #fee030;
+    border-radius: 10px;
+ }
+/* width >= 740px and width =< 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+   #form-text {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+   }
+
+   #image {
+    width: 100%;
+    height:100%;
+    position: relative;
+   }
+}
+/* width < 740px  */
+@media only screen and (max-width: 46.1875em) {
+    #form-text {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+    }
+ 
+    #image {
+     width: 100%;
+     height:100%;
+     position: relative;
+    }
+ }
+
+
+    
+
+    

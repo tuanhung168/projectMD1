@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: ;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  margin-right: 40px;
+  font-weight: bold;
+}
+
+nav li a {
+  color: black;
+  text-decoration: none;
+}
+
+nav li h3:hover {
+  cursor: pointer;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.search input {
+  padding: 5px;
+  border: none;
+  border-radius: 20px;
+  outline-style: none;
+}
+
+.search button {
+  background-color: #4255ff;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input {
+  width: 500px;
+  background-color: #f6f7fb;
+}
+
+.dropdown button {
+  background-color: white;
+  border: none;
+  color: black;
+  font-weight: bold;
+}
+
+#body {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.CTM1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.CTM2 {
+  padding-top: 30px;
+}
+
+.CTM3 {
+  padding-top: 30px;
+}
+
+.dropdown1 button {
+  background-color: white;
+  color: #586380;
+}
+
+.dropdown1 button:hover {
+  background-color: #f6f7fb;
+  color: #586380;
+}
+
+#body1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.card2 {
+  display: flex;
+  margin-top: 10px;
+}
+
+.card1 {
+  padding-left: 16px;
+  padding-top: 16px;
+}
+
+.card3 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 42px;
+}
+
+.card {
+  width: 315px;
+  margin-top: 25px;
+  border: none !important;
+}
+
+.card:hover {
+  border-bottom: 3px solid #4255ffcc !important;
+  cursor: pointer;
+}
+
+.text2 {
+  padding-left: 16px;
+}
+
+#fullcard {
+  display: flex;
+  justify-content: space-around;
+}
+
+#cyborg {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.img-6 {
+  width: 150px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+#phoenix {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.text-11 {
+  padding-left: 100px;
+  padding-top: 30px;
+}
+
+.unknow {
+  text-decoration: none;
+  color: black;
+}
+.unknow:hover {
+    color: #4255ff;
+    cursor: pointer;
+}

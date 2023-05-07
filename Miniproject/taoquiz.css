@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: #0a092d!important;
+}
+
+header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px;
+    
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    border-bottom: #4255ff;
+  }
+  
+  nav li {
+    margin-right: 40px;
+    font-weight: bold;
+  }
+  
+  nav li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav li h3:hover {
+    cursor: pointer;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .search input {
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    outline-style: none;
+  }
+  
+  .search button {
+    background-color: #4255ff;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #hero {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  #hero h1 {
+    font-size: 3em;
+  }
+  
+  input {
+    width: 500px;
+    background-color: #f6f7fb;
+  }
+  
+  .dropdown button {
+    background-color: #0a092d;
+    border: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .TC:hover {
+    border-bottom: #4255ff;
+  }
+
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  
+  }
+  
+  .btn-new {
+    display:flex;
+    justify-content: space-between;
+  }
+
+  .nhapzo {
+    margin-top: 50px;
+  }
+
+  .form {
+    width:800px; 
+    height: 70px;
+    border: none;
+    border-bottom: 2px solid #2e3856;
+    padding-left: 10px;
+    color: white;
+    outline-style: none;
+}
+
+.new {
+  background-color: #2e3856;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.new input {
+  width: 400px;
+  margin-top: 50px;
+  margin-left: 30px;
+  border: none;
+  border-bottom: 2px solid white;
+  color: white;
+  height:50px;
+  outline-style: none;
+}
+
+.input1 {
+  display: inline;
+}
+
+
+.add-new {
+  background-color: #2e3856;
+  margin-top: 30px;
+  height: 150px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  border-bottom: 5px solid #7dd;
+}
+
+.add-new:hover {
+  cursor: pointer;
+  color: yellow;
+  border-color: yellow;
+}
